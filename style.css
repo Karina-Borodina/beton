@@ -223,3 +223,14 @@ iframe{
         display: block;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .blos3{
+        margin-top: 3%;
+        font-size: 120%;
+    }
+
+    .content{
+        margin-top: 5%;
+    }
+}
