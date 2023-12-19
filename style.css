@@ -3,3 +3,44 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+header{
+    z-index: 0;
+    background-image: url(https://th.bing.com/th/id/OIG.4dHeaPP0y5Lumc_YNFD4?pid=ImgGn); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    opacity: 0.8; 
+    padding-bottom: 10%;
+    margin: 0;
+}
+header img{
+    border-radius: 100%;
+    width: 10%;
+    position: fixed;
+}
+.img{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9999;
+}
+.button{
+  margin-left: 70%;
+  background-color: rgb(192, 100, 24);
+  color: whitesmoke;
+  border-radius: 10%;
+  padding: 1%;
+  text-decoration: none;
+} 
+
+header p { 
+    padding: 1% 25%; 
+    text-align: center; 
+    font-weight: bold;
+    font-size: 175%;
+} 
+header h2{
+    padding: 4% 4%;
+    margin-left: 3%;
+    font-size: 250%;
+}
