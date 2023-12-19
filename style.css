@@ -163,3 +163,63 @@ iframe{
 .icon{
     color: black;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .button{
+        margin: 0%;
+        margin-left: 40%;
+        width: 30%;
+    }
+
+    header h2{
+        text-align: center;
+    }
+
+    header p{
+        padding: 0%;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+
+    .section1{
+        display: block;
+    }
+
+    .section1 img{
+        display: block;
+        width: 100%;
+    }
+
+    .blos3{
+        display: block;
+        margin: 2% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text h1{
+        margin: 1%;
+    }
+
+    .kar{
+        display: block;
+        width: 100%;
+    }
+
+    .content{
+        display: block;
+        width: 100%;
+    }
+
+    .personal-blos{
+        width: 100%;
+    }
+
+    .list{
+        margin: 0%;
+        padding: 5% 0;
+    }
+
+    .beton{
+        display: block;
+    }
+}
